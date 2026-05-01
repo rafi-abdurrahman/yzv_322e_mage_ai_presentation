@@ -1,0 +1,1 @@
+{"city": "str", "date": "str", "temperature": "float64", "temperature_fahrenheit": "float64", "windspeed": "float64"}

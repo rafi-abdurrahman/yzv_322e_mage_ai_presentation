@@ -1,0 +1,23 @@
+version: '3'
+services:
+  postgres:
+    image: postgres:15
+    environment:
+      POSTGRES_USER: admin
+      POSTGRES_PASSWORD: password
+      POSTGRES_DB: weather_db
+    ports:
+      - "5444:5432"
+
+  mage:
+    image: mageai/mageai:latest
+    command: mage start demo_project
+    ports:
+      - "6789:6789"
+    volumes:
+      - .:/home/src/
+    environment:
+      - USER_CODE_PATH=/home/src/demo_project
+      - REQUIRE_USER_AUTHENTICATION=0
+    depends_on:
+      - postgres
