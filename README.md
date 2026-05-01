@@ -13,7 +13,7 @@ Mage AI is an open-source data pipeline tool for transforming and integrating da
 ## 3. Installation
 To set up the environment, clone this repository and navigate to its directory:
 ```bash
-git clone [<your-repository-url>](https://github.com/rafi-abdurrahman/yzv_322e_mage_ai_presentation.git)
+git clone https://github.com/rafi-abdurrahman/yzv_322e_mage_ai_presentation.git
 cd mage-ai-demo
 ```
 
