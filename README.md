@@ -66,6 +66,7 @@ Mage AI has built-in charting capabilities. To visualize your data:
 When the pipeline runs successfully, data is loaded into the PostgreSQL database. You can also view the data interactively through the pipeline notebook and the newly created Bar Chart.
 
 ![alt text](image.png)
+![alt text](image-1.png)
 
 ## 7. AI Usage Disclosure
 This presentation and repository were developed with the assistance of an AI coding assistant (Gemini/Antigravity) to help structure the Docker environment (including the PostgreSQL integration), formulate the ETL pipeline code, and structure this README according to the assignment requirements. All AI-generated outputs were reviewed and tested by the student before submission.
